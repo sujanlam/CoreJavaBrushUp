@@ -1,0 +1,19 @@
+
+                                                Object
+                                                -------
+                                                  |
+                                                Throwable
+                                                ---------
+                                                  |
+                   ---------------------------------------------------------------------
+                   ERROR                                                    EXCEPTION
+                  -------                                                  ----------
+                    |                                                               |
+THREADDEATHERROR IOERROR OUTOFMEMORYERROR                   RUNTIME EXCEPTION (UNCHECKED)               COMPILETIME EXCEPTION (CHECKED)
+                                                            (COMPILER DOES NOT FORCE TO HANDLE)            (COMPILER FORCES TO HANDLE)
+                                                                    |                                                 |
+                                                -----------------------------------------------         ---------------------------------------
+                                                ARRAYOUTOFBOUND NULLPOINTER ARITHMETICEXCEPTION         SQL EXCEPTION IOEXCEPTION CLASSNOTFOUND
+
+Throw vs Throws:
+========================
