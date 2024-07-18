@@ -26,6 +26,14 @@ public class Sets {
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }
+        Set<Integer> setstream = new HashSet<Integer>();
+        setstream.add(291);
+        setstream.add(122);
+        setstream.add(303);
+        setstream.add(24);
+        System.out.println(set);
+        System.out.println("Printing using stream: ");
+        setstream.stream().forEach(System.out::println);
     }
 
 }
